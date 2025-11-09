@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+.env
+temp/
+logs/
+*.mp4
+*.glb
+node_modules/
+.DS_Store
+
+# Documentation - exclude all .md except README
+*.md
+!README.md
