@@ -103,45 +103,6 @@ surgical-ar-demo/
 - `POST /suggest-entry-point` - Get optimal entry point suggestion
 - `WS /ws/{client_id}` - WebSocket for real-time updates
 
-## Development Status
-
-### ✅ Completed
-- [x] Phase 0: Foundation Setup
-- [x] Phase 1: Backend Infrastructure
-- [x] Phase 2: Dedalus Agent - Video Reconstruction
-- [x] Phase 3: 3D Model Fallback System (placeholder)
-- [x] Phase 6: AI Medical Guidance
-
-### 🚧 To Do
-- [ ] Phase 4: Frontend 3D Viewer (React + Three.js)
-- [ ] Phase 5: AR Video Overlay
-- [ ] Phase 7: End-to-End Integration
-- [ ] Phase 8: Polish & Demo Preparation
-- [ ] Add actual 3D models
-- [ ] Record demo video
-
-## Next Steps
-
-1. **Add your Dedalus API key** to `.env`
-2. **Add 3D models** to `assets/models/`
-3. **Build the frontend**:
-   ```bash
-   npx create-react-app frontend
-   cd frontend
-   npm install three @react-three/fiber @react-three/drei
-   ```
-4. **Test the backend** with the integration tests
-5. **Create demo video** for backup
-
-## Demo Script
-
-See `instructions.md` Phase 8 for the complete demo script (2 minutes).
-
-## Troubleshooting
-
-### Dedalus API not working
-- Check your API key in `.env`
-- System automatically falls back to mock responses for demo reliability
 
 ### 3D models not loading
 - Ensure GLB files are in `assets/models/`
@@ -152,6 +113,4 @@ See `instructions.md` Phase 8 for the complete demo script (2 minutes).
 - Check CORS settings in server.py
 - Ensure frontend is connecting to correct URL
 
-## License
 
-Hackathon POC - Educational purposes only
